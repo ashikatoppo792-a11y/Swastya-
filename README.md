@@ -237,3 +237,5 @@ The system initializes with 8 realistic cases representing diverse Indian facili
 1. **Software as a Medical Device (SaMD):** Classified as Class B Clinical Decision Support Software under CDSCO guidelines. Strictly non-autonomous.
 2. **DPDP Act 2023 Alignment:** Mandatory purpose-bound consent at intake, one-click PII redaction toggle (`P*** R***`), and immutable audit trail.
 3. **FHIR Interoperability:** Implements HL7 FHIR R4 ClinicalImpression and Encounter resource bundles compatible with Ayushman Bharat Health Account (ABHA).
+#   S w a s t y a -  
+ 
