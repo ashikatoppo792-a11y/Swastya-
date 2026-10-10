@@ -238,4 +238,5 @@ The system initializes with 8 realistic cases representing diverse Indian facili
 2. **DPDP Act 2023 Alignment:** Mandatory purpose-bound consent at intake, one-click PII redaction toggle (`P*** R***`), and immutable audit trail.
 3. **FHIR Interoperability:** Implements HL7 FHIR R4 ClinicalImpression and Encounter resource bundles compatible with Ayushman Bharat Health Account (ABHA).
 #   S w a s t y a -  
+ #   S w a s t y a -  
  
