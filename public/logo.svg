@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Hexagon / Shield -->
+  <path d="M50 8 L85 26 V62 C85 78 50 92 50 92 C50 92 15 78 15 62 V26 Z" fill="url(#primaryGrad)" />
+  <path d="M50 14 L79 30 V60 C79 73 50 85 50 85 C50 85 21 73 21 60 V30 Z" fill="#042f2e" opacity="0.2"/>
+  
+  <!-- Medical Cross Subtle Background -->
+  <rect x="44" y="28" width="12" height="38" rx="6" fill="#ffffff" fill-opacity="0.15"/>
+  <rect x="31" y="41" width="38" height="12" rx="6" fill="#ffffff" fill-opacity="0.15"/>
+
+  <!-- Dynamic ECG / Heartbeat Line -->
+  <path d="M26 50 H36 L41 39 L47 61 L54 35 L60 55 L65 47 L69 50 H74" stroke="url(#pulseGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Triage Priority Dot (Amber/Green pulse) -->
+  <circle cx="74" cy="50" r="3.5" fill="#10B981"/>
+</svg>

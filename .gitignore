@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment secrets
+.env.local
+.env.*.local
+
+# Logs and OS files
+*.log
+.DS_Store
